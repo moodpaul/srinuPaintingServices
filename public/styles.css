@@ -1,0 +1,111 @@
+body{
+    background-color: black;
+    margin: 0%;
+    padding: 0%;
+}
+.logo-name{
+    color: white;
+    font-size: 2rem;
+   
+    font-weight: 800;
+     margin-left: 30px;
+}
+* {
+    color: white;
+  box-sizing: border-box;
+}
+.painting-photo {
+    display: flex;
+    flex-direction: row;
+    width: 100vh;
+    gap: 10px;
+   
+    margin: 50px 0px 50px 100px;
+    
+}
+.paintings{
+max-width: 550px;
+height: 350px;
+border-radius: 10px;
+}
+.form-submition a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.get-in-touch{
+    width: 100%;
+    text-align: center;
+    
+}
+.our-services{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+     grid-template-rows: 1fr 1fr;
+    text-align: center;
+
+}
+.our-services p{
+    text-align: center;
+}
+.services {
+    text-align: center;
+    margin: 50px 0px;
+    
+}
+.same{
+    color: rgb(255, 230, 0);
+    
+}
+.blue{
+    color:rgb(0, 85, 255)
+}
+.img-text{
+    padding: 40px;
+}
+h2{
+    font-size: 2.5rem;
+}
+.title-div{
+    text-align: center;
+}
+header{
+    padding-right: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .painting-photo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   align-items: center;
+    margin: 0px;
+    
+}
+.paintings{
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+}
+.form-submition a{
+    
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.our-services{
+    display: flex;
+   flex-direction: column;
+    text-align: center;
+
+}
+.our-services p{
+    text-align: center;
+}
+.services {
+    text-align: center;
+    margin: 50px 0px;
+ 
+}
+}
